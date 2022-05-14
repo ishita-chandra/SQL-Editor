@@ -1,38 +1,91 @@
-.App {
+*{
+  margin:10px;
+
+}
+body{
+  background: #000000;
+}
+
+.SQL{
+  display:flex;
+}
+
+.button{
+  display:flex;
+  justify-content:right;
+}
+.save-svg{
+  height:20px;
+  fill:white !important;
+  margin: 10px 5px 10px 7px;
+}
+
+.BUTTON_Run {
+  width:102.59px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px;
+  background-color: #166ED2;
+  
+  text-shadow: 0 0 0 #000000;
+  border: solid #337FED 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.BUTTON_Run:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+ .BUTTON_Save {
+   display:flex;
+   align-items:center;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 0;
+  padding: 10px 10px 10px 15px;
+  background-color: #06C3A7;
+ 
+  
+  text-shadow: 0 0 0 #000000;
+  border: solid #337FED 0;
+  text-decoration: none;
+  /* display: inline-block; */
+  cursor: pointer;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.BUTTON_Save:hover {
+  border: solid #337FED 0;
+  background: #1eac97;
+  background-image: -webkit-linear-gradient(top, #3C8809, #14B64C);
+  background-image: -moz-linear-gradient(top, #3C8809, #14B64C);
+  background-image: -ms-linear-gradient(top, #3C8809, #14B64C);
+  background-image: -o-linear-gradient(top, #3C8809, #14B64C);
+  background-image: -webkit-gradient(to bottom, #3C8809, #14B64C);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 5px;
+  text-decoration: none;
 }

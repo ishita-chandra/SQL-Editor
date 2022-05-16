@@ -68,6 +68,7 @@ function Editor({setQuery,text,setText,handleClick}) {
       <button className="BUTTON_Run" onClick={handleClick}>Run ▶</button>
       <button className="BUTTON_Save" onClick={()=>window.print()}>Save<img className="save-svg" src={save}/> </button>
     </div>
+    <h3>Try the following queries:</h3>
         <button className="BUTTON_AVN" onClick={handleClick1}> {q1} </button>
         <button className="BUTTON_AVN" onClick={handleClick2}> {q2}</button>
         <button className="BUTTON_AVN" onClick={handleClick3}> {q3} </button>

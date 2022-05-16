@@ -20,7 +20,7 @@ function App() {
       setQuery(updatedText);
     }
     else{
-      alert(" Please select the below mentioned queries only")
+      alert(" Please type the below mentioned queries only")
     }
   }
   

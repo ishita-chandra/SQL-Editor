@@ -1,140 +1,132 @@
-.editor{
-    width: 48%;
-    min-height: 100vh;
-    color: #fff;
+.editor {
+  width: 48%;
+  min-height: 100vh;
+  color: #fff;
 }
 
-.button{
-    display:flex;
-    justify-content:right;
-    margin-bottom:20px;
-  }
-  .save-svg{
-    height:16px;
-    fill:white !important;
-    margin: 10px 5px 10px 7px;
-  }
-  
-.BUTTON_AVN {
-    width:calc(100% - 20px);
-    background: #31676f;
-    border-radius: 5px;
-    color: #fff;
-    font-family: "Courier New" ;
-    font-size: 20px;
-    font-weight: 100;
-    padding: 9px 15px;
-    box-shadow: 0 0 0 0 #000000;
-    text-shadow: 0 0 0 #000000;
-    border: solid #337FED 0;
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
- }
+.button {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 20px;
+}
 
- 
- .BUTTON_AVN:hover {
-    border-radius: 5px;
-    text-decoration: none;
-    background: #27565d;
- }
- .text{
-     font-family:"Courier New";
-     width: calc(100% - 20px);
-     font-weight: bold;
-     padding:10px;
-     box-sizing: border-box;
-     outline:none;
- }
- .text::-webkit-input-placeholder {
-    font-weight: lighter;
- 
+.save-svg {
+  height: 16px;
+  fill: white !important;
+  margin: 10px 5px 10px 7px;
+}
+
+.BUTTON_Query {
+  width: calc(100% - 20px);
+  background: #31676f;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Courier New';
+  font-size: 20px;
+  font-weight: 100;
+  padding: 9px 15px;
+  box-shadow: 0 0 0 0 #000000;
+  text-shadow: 0 0 0 #000000;
+  border: solid #337fed 0;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.BUTTON_Query:hover {
+  border-radius: 5px;
+  text-decoration: none;
+  background: #27565d;
+}
+.text {
+  font-family: 'Courier New';
+  width: calc(100% - 20px);
+  font-weight: bold;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+.text::-webkit-input-placeholder {
+  font-weight: lighter;
 }
 .text::-moz-placeholder {
-    font-weight: lighter;
-   
+  font-weight: lighter;
 }
 .text::-ms-input-placeholder {
-    font-weight: lighter;
-   
+  font-weight: lighter;
 }
-
 
 .BUTTON_Run {
-    width:79.47px;
-    border-radius: 5px;
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 100;
-   
-    background-color: #166ED2;
-    
-    text-shadow: 0 0 0 #000000;
-    border: solid #337FED 0;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
+  width: 79.47px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 100;
+
+  background-color: #166ed2;
+
+  text-shadow: 0 0 0 #000000;
+  border: solid #337fed 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_Run:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.BUTTON_Save {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 100;
+  margin-left: 0;
+  margin-right: 5px;
+  padding: 5px 5px 5px 10px;
+  background-color: #06c3a7;
+  border: solid #337fed 0;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_Save:hover {
+  border: solid #337fed 0;
+  background: #1eac97;
+
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .editor {
+    width: unset;
+  }
+  h3 {
     text-align: center;
   }
-  
-  .BUTTON_Run:hover {
-    border: solid #337FED 1px;
-    background: #1E62D0;
-    border-radius: 5px;
-    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .button {
+    justify-content: center;
   }
-   .BUTTON_Save {
-     display:flex;
-     align-items:center;
-    border-radius: 5px;
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 100;
+}
+
+@media (max-width: 350px) {
+  .editor {
     margin-left: 0;
-    margin-right:5px;
-     padding: 5px 5px 5px 10px; 
-    background-color: #06C3A7;
-    border: solid #337FED 0;
-    text-decoration: none;
-    /* display: inline-block; */
-    cursor: pointer;
-    text-align: center;
-  }
-  
-  .BUTTON_Save:hover {
-    border: solid #337FED 0;
-    background: #1eac97;
-   
-    border-radius: 5px;
-    text-decoration: none;
+    margin-right: 0;
   }
 
-
-
-
-@media (max-width:1024px) {
-    .editor{
-        width:unset;
-    }
-      h3{
-          text-align:center;
-      }
+  .BUTTON_Run,
+  .BUTTON_Save {
+    font-size: 14px;
+  }
 }
-@media (max-width:500px) {
-    .button{
-        justify-content:center;
-    
-      }
-    
-}
-@media (max-width:350px) {
-    .editor{
-        margin-left:0;
-        margin-right:0;
-    }
-    
-.BUTTON_Run,.BUTTON_Save{
-    font-size:14px;
-    
-  }
-  }

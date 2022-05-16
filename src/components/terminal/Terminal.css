@@ -1,20 +1,16 @@
-.terminal{
-    width: 48%;
-    min-height: 100vh;
-    color: #fff;
-    
+.terminal {
+  width: 48%;
+  min-height: 100vh;
+  color: #fff;
 }
-@media (max-width:1024px) {
-    .terminal{
-        width:unset;
-
-    }
-    
+@media (max-width: 1024px) {
+  .terminal {
+    width: unset;
+  }
 }
-@media (max-width:350px) {
-    .terminal{
-        margin-left:0;
-        margin-right:0;
-    }
-    
+@media (max-width: 350px) {
+  .terminal {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

@@ -3,17 +3,18 @@
 The site is hosted on: [https://sql-editor-ishita.netlify.app/](https://sql-editor-ishita.netlify.app/) ✨
 
 This web app is front-end of an SQL editor which can be used to execute the SQL queries.
-It consists of an Editor and a Terminal.
-Some predefined queries that can be executed are provided in the buttons.
+It consists of an Editor and a Terminal. Some predefined queries that can be executed are provided in the buttons.
+#### The website is responsive.
+
+
+There are 2 buttons : 
+- Run button : It executes the query.
+- Save button : It prints the webpage.
 
 This is how the website looks:
 
 ![SQL Editor website](/public/site1.png 'Website Image 1')
 ![SQL Editor website](/public/site2.png 'Website Image 2')
-
-There are 2 buttons : 
-- Run button : It executes the query.
-- Save button : It prints the webpage.
 
 
 The data of the table used is taken from [here](https://github.com/graphql-compose/graphql-compose-examples/blob/master/examples/northwind/data/csv/regions.csv):

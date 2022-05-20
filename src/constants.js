@@ -1,6 +1,6 @@
 const q1 = "SELECT * FROM regions;"
 const q2 = "SELECT * FROM regions WHERE regionID = 1;"
-const q3 = "SELECT regionID FROM regions LIMIT 2;"
+const q3 = "SELECT * FROM regions LIMIT 2;"
 const q4 = "SELECT regionDescription FROM regions;"
 const data1={
     id:1,
